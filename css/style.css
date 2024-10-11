@@ -1,0 +1,113 @@
+ body header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  body header li {
+    float: left;
+  }
+  
+  body header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  body header li a:hover {
+    background-color: #272626;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main img {
+    width: 40%;
+    height: auto;
+  }
+  main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  main p {
+    text-align: justify;
+    font-size: 20px;
+    max-width: 70%;
+  }
+  main h1 {
+    font-size: 40px;
+    text-align: center;
+    text-size-adjust: auto;
+  }
+  li {
+    font-size: 20px;
+  }
+  .gallery {
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap; 
+    width: 80%; 
+}
+
+.gallery img {
+    margin: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* form input[type="radio"] {
+  margin-right: 10px;
+} */
+
+form button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #575757;
+}

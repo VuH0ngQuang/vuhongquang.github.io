@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Contact me</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About me</a></li>
+                    <li><a href="friends.html">My friends</a></li>
+                    <li><a href="pictures.html">Pictures</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main style="margin-top: 2.5%;">
+            <div class="form-container">
+                <form action="submit_form.html" method="post">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <div class="gender-container">
+                        <label for="gender">Gender: </label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br><br>
+                    </div><div class="gender-container">
+                        <label for="skin">Skin color: </label>
+                        <input type="radio" id="black" name="skin" value="black">
+                        <label for="black">BLACK</label>
+                        <input type="radio" id="white" name="skin" value="white">
+                        <label for="White">White</label>
+                        <input type="radio" id="yellow" name="skin" value="yellow">
+                        <label for="yellow">yellow</label><br><br>
+                        <p style="font-size: x-small; margin-bottom: 20px; color: red;">That's right, i'm gender discrimination and racism</p>
+                    </div>
+                    <label for="comment">Comment: </label>
+                    <textarea id="comment" name="comment" rows="10"></textarea><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </main>        
+        <footer>
+            <p>&copy; VuH0ngQuang 2024</p>
+        </footer>
+    </body>
+</html>
